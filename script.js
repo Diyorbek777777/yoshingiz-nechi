@@ -13,7 +13,7 @@
 // document.write(`${num1} * ${num2} * ${num3}=${num1 * num2 * num3}<br>`);
 // document.write(`${num1} / ${num2} / ${num3}=${num1 / num2 / num3}<br>`);
 
-let age = +prompt("Yozingiz kiriting");
+let age = +prompt("Yoshingiz kiriting");
 let date = new Date();
 document.write(date.getFullYear() - age);
 
